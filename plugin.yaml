@@ -1,0 +1,6 @@
+plugin:
+    name: 'luismayta.facebookgallery::lang.plugin.name'
+    description: 'Show the photos of your facebook albums'
+    author: 'Luis Mayta'
+    icon: oc-icon-image
+    homepage: ''
