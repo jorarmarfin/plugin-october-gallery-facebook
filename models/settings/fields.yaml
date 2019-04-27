@@ -1,0 +1,9 @@
+fields:
+    fb_page_id:
+        span: left
+        label: Facebook page Id 
+        commentAbove: Insert Facebook page Id
+    access_token:
+        span: left
+        label: Access Token
+        commentAbove: Access Token your apps facebook

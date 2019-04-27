@@ -3,4 +3,4 @@ plugin:
     description: 'Show the photos of your facebook albums'
     author: 'Luis Mayta'
     icon: oc-icon-image
-    homepage: ''
+    homepage: 'https://github.com/jorarmarfin/plugin-october-gallery-facebook'

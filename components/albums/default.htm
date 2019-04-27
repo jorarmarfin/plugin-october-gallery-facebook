@@ -1,0 +1,10 @@
+<h1>Gallery Fotos Facebook</h1>
+{% for data in albums %}
+    <div class="fb-album">
+        <span>{{ data.name }} cantidad de fotos ({{ data.count }})</span>
+        <br>
+        <a href="{{ data.link }}" target="blank">
+            <img src='https://graph.facebook.com/v2.9/{{data.cover_photo.id}}/picture?access_token={{token}}' alt='{{ data.name }}' width="200px">
+        </a>
+    </div>
+{% endfor %}
