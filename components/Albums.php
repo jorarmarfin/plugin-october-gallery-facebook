@@ -30,7 +30,6 @@ class Albums extends ComponentBase
         $fb_page_id = $settings->fb_page_id;
         $access_token =$settings->access_token;
         $graphAlbLink = "https://graph.facebook.com/v3.0/{$fb_page_id}/albums?fields={$fields}&access_token={$access_token}";
-        dd($graphAlbLink);
         $jsonData = file_get_contents($graphAlbLink);
         $fbAlbumObj = json_decode($jsonData, true, 512, JSON_BIGINT_AS_STRING);
         $this->page['albums'] = $fbAlbumObj['data'];
